@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Question</title>
+</head>
+<body>
+   <form action="https://www.google.com/search?q">
+    <input type="text" name="q" placeholder="search in gooogle">
+    <button>Search</button>
+   </form>
+</body>
+</html>
+
+<!-- 
+https://www.google.com/search?q=apple 
+ 1️⃣ User types data
+<input type="text" name="username">
+User enters: Divya
+
+2️⃣ User clicks Submit
+Browser collects name + value
+
+3️⃣ Data is sent to server
+username=Divya
+
+4️⃣ Server reads it
+Server uses username to get the value Divya
+
+Step-by-step flow
+1️⃣ Page-1 (Form page)
+<form action="result.html">
+  <input type="text" name="username">
+  <button type="submit">Submit</button>
+</form>
+User types: Divya
+
+2️⃣ Browser sends data
+When submit is clicked, browser sends:
+result.html?username=Divya
+
+3️⃣ Page-2 (Next page / server)
+result.html receives username
+It can read and show the data
+How connection happens
+action → tells which page to open
+name → tells what data is sent
+Value → what user typed
+-->
