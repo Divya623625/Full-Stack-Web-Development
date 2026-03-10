@@ -1,0 +1,29 @@
+h1{
+    color: #000000;
+}
+h2{
+    color: #ffff00;
+}
+h3{
+    color: #0000ff;
+}
+h4{
+    color:#ff00ff;
+}
+h5{
+    color: #ffffff;
+    background-color: black;
+}
+h6{
+    color: #000000;
+    background-color: whitesmoke;
+}
+/* p{
+    color: #fff;
+    background-color: #000;
+} */
+ p{
+    color:#fff;
+    background-color: #18ba1b;
+ }
+ 
