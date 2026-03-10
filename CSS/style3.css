@@ -1,0 +1,55 @@
+/* h2{
+    color:red;
+}
+h1{
+    color:teal;
+}
+h3{
+    color:olive;
+}
+h4{
+    color:orange;
+}
+h5{
+    color:blue;
+}
+h6{
+    color:maroon;
+}
+p{
+    color:pink;
+} */
+ 
+/* 
+Millions of colors can be created from rgb. 
+color picker
+*/
+
+/* 
+h2{
+    color: rgb(0,255,0);
+} 
+
+H1{
+    color: rgb(255,0,0);
+}
+*/
+p{
+    color: rgb(0,0,255);
+}
+h3{
+    color: rgb(255,255,0);
+}
+h4{
+    color: rgb(255,255,255);
+    background-color: black;
+}
+h6{
+    color: rgb(255,0,255);
+}
+h2{
+    color: rgb(120,0,120);
+}
+H1{
+    color: rgb(120,43,145);
+}
