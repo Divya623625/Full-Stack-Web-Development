@@ -5,6 +5,9 @@ Universal Selector
     background-color: blue;
 } */
  h3{
+  background-color: antiquewhite !important;
+ }
+ h3{
     color:purple;
  }
  h1{
@@ -94,3 +97,29 @@ input[type="radio"]:checked + label{
   color:red;
   font-weight:bold;
 }
+/* .post:nth-of-type(2){
+  background-color:blanchedalmond;
+} */
+ div:nth-of-type(2n){
+  background-color:blanchedalmond;
+}
+/* 
+div:nth-of-type(3n){
+  background-color:blanchedalmond;
+} */
+
+ h1::first-letter{
+   color:black;  /*green,pink*/
+ }
+ p::first-line{
+  color:darkmagenta;
+ }
+ p::selection{
+  background-color: rgb(199,192,58);
+ }
+ h3{
+  background-color: yellow;
+ }
+ h3{
+  background-color: blue;
+ }
